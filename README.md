@@ -6,3 +6,6 @@
 
 I have created Simulation class and Polygon class and the 8 art choices
 randomly generated each time
+
+For the smaller polygons, I created them from the big polygon .draw_small() function
+then I did that again to get 2 inner layers from the big polygon.
