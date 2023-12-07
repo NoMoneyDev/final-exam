@@ -70,9 +70,11 @@ class Polygon:
         for _ in range(self.num_sides):
             turtle.forward(self.size)
             turtle.left(360 / self.num_sides)
+        turtle.setheading(self.orientation)
         turtle.penup()
 
     def draw_small(self):
+        turtle.penup()
         turtle.setheading(self.orientation)
         turtle.forward(self.size * (1 - reduction_ratio) / 2)
         turtle.left(90)
